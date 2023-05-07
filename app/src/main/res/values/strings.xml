@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TicTacToe Game</string>
+    <string name="app_welcome">Welcome To TicTacToe</string>
+    <string name="app_dev">Made by ♥ - AsherFraz</string>
+    <string name="newgame">NewGame</string>
+    <string name="history">History</string>
+    <string name="player1">Player1</string>
+    <string name="player2">Player2</string>
+
+</resources>

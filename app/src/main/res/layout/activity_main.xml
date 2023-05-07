@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/LinearLayoutMain"
+    android:background="@color/orange"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_welcome"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/orange"
+        android:background="@color/splash"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/Player1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/player1"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:layout_alignParentStart="true"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/Player2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/player2"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="15dp"
+        app:cardMaxElevation="30dp"
+        app:cardPreventCornerOverlap="true"
+        >
+
+
+    <GridLayout
+        android:id="@+id/subGridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:background="@color/splash">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn1"
+            android:layout_marginBottom="10dp"
+            android:onClick="Check"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn2"
+            android:layout_marginLeft="10dp"
+            android:onClick="Check"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn3"
+            android:layout_marginLeft="10dp"
+            android:onClick="Check"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn4"
+            android:layout_marginBottom="10dp"
+            android:onClick="Check"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn5"
+            android:layout_marginLeft="10dp"
+            android:onClick="Check"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn6"
+            android:layout_marginLeft="10dp"
+            android:onClick="Check"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn7"
+            android:onClick="Check"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn8"
+            android:layout_marginLeft="10dp"
+            android:onClick="Check"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn9"
+            android:layout_marginLeft="10dp"
+            android:onClick="Check"
+            />
+
+    </GridLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNewGame"
+        android:text="@string/newgame"
+        android:textStyle="bold"
+        android:onClick="restart"
+        />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHistory"
+            android:text="@string/history"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:onClick="history"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLastWinner"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_dev"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
