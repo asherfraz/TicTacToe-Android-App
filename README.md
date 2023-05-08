@@ -12,8 +12,8 @@
 <p align="center">
 <img src="https://github.com/asherfraz/TicTacToe-Android-App/blob/main/ScreenShots/merge.png?raw=true" width="720"/>
 </p>
-## Tech Stack
 
+## Tech Stack
 **Frontend:** XML  ,  **Backend:** Java
 
 ## Updating
