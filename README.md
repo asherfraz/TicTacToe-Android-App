@@ -5,9 +5,17 @@
 
 # TicTacToe-Android-App
 
-#### TicTacToe is an Android application with category of entertainment and games. This is 3x3 table of TicTacToe with having feature of two playes and also generate history (How many games are Wins, Loss & Drawn). This is an OFFLINE game.
+#### TicTacToe is an Android application with category of entertainment and games. This is *3x3* table of TicTacToe with having feature of two playes and also generate history (How many games are Wins, Loss & Drawn). This is an *OFFLINE* game.
 
 # ScreenShots
+
+<p align="center">
+<img src="https://github.com/asherfraz/TicTacToe-Android-App/blob/main/ScreenShots/merge.png?raw=true" width="720"/>
+</p>
+## Tech Stack
+
+**Frontend:** XML  ,  **Backend:** Java
+
 
 ## Feedback
 
