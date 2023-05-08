@@ -16,6 +16,8 @@
 
 **Frontend:** XML  ,  **Backend:** Java
 
+## Updating
+#### Soon I  will update this game to *6x6* table.
 
 ## Feedback
 
